@@ -1,76 +1,115 @@
+# 🚀 Computer Vision Journey
 
-Readme · MD
-# 🖼️ Computer Vision with OpenCV
- 
-A collection of Jupyter Notebooks covering core Computer Vision concepts — from basic image processing to real-time object detection — implemented using **OpenCV**, **Python**, and **YOLOv8**.
- 
----
- 
-## 📁 Repository Structure
- 
-| Notebook | Description |
-|---|---|
-| `imageProcessing.ipynb` | Fundamentals of image I/O, color space conversion, resizing, blurring, and thresholding |
-| `edgedetection.ipynb` | Edge detection using Sobel, Laplacian, and Canny operators |
-| `countours.ipynb` | Contour detection and analysis using `cv2.findContours()` |
-| `Conv.ipynb` | Convolution operations and kernel-based filtering |
-| `FeatureDetection.ipynb` | Feature detection using Harris Corner, SIFT, and ORB |
-| `VideoProcessing.ipynb` | Real-time video capture, frame manipulation, and display |
-| `faceDetection.ipynb` | Face detection using Haar Cascade Classifier |
-| `objectDetection.ipynb` | Object detection using **YOLOv8** (`yolov8n.pt`) |
- 
----
- 
+Welcome to my Computer Vision learning repository! This repository contains my notes, implementations, projects, and experiments while exploring the fascinating field of Computer Vision and Deep Learning.
+
+## 📚 Topics Covered
+
+### Fundamentals
+- Image Classification
+- Image Localization
+- Object Detection
+- Image Segmentation
+- Instance Segmentation
+- Semantic Segmentation
+
+### CNN Architectures
+- LeNet
+- AlexNet
+- VGGNet
+- GoogLeNet (Inception)
+- ResNet
+- DenseNet
+- EfficientNet
+
+### Object Detection Models
+- R-CNN
+- Fast R-CNN
+- Faster R-CNN
+- Mask R-CNN
+- SSD (Single Shot Detector)
+- YOLO Family (YOLOv1 - YOLOv11)
+
+### Segmentation Models
+- FCN
+- U-Net
+- DeepLab
+- Mask R-CNN
+
+### Advanced Topics
+- Transfer Learning
+- Data Augmentation
+- Feature Extraction
+- Attention Mechanisms
+- Vision Transformers (ViT)
+- CLIP
+- Diffusion Models
+
 ## 🛠️ Tech Stack
- 
-- **Python 3.x**
-- **OpenCV** (`cv2`)
-- **NumPy**
-- **Matplotlib**
-- **Ultralytics YOLOv8**
-- **Jupyter Notebook**
----
- 
-## 🚀 Getting Started
- 
-### 1. Clone the repository
-```bash
-git clone https://github.com/devanshu6738/Computer_Vision.git
-cd Computer_Vision
+
+- Python
+- NumPy
+- Pandas
+- Matplotlib
+- OpenCV
+- TensorFlow
+- Keras
+- PyTorch
+- Scikit-Learn
+
+## 📂 Repository Structure
+
 ```
- 
-### 2. Install dependencies
-```bash
-pip install opencv-python numpy matplotlib ultralytics jupyter
+Computer_Vision/
+│
+├── Notes/
+├── CNN Architectures/
+├── Object Detection/
+├── Segmentation/
+├── Projects/
+├── Datasets/
+└── Resources/
 ```
- 
-### 3. Launch Jupyter
-```bash
-jupyter notebook
-```
- 
-Open any `.ipynb` file to explore that topic.
- 
+
+## 🎯 Learning Goals
+
+- Build strong fundamentals in Computer Vision.
+- Understand modern CNN architectures.
+- Master Object Detection and Segmentation.
+- Learn Vision Transformers and Generative Models.
+- Create real-world Computer Vision projects.
+
+## 🔥 Projects
+
+Some projects included in this repository:
+
+- Lane Detection System
+- Face Detection
+- Image Classification
+- Object Detection using YOLO
+- Image Segmentation
+- Traffic Sign Recognition
+- Vehicle Detection
+
+## 📈 Roadmap
+
+- [x] Image Classification
+- [x] CNN Fundamentals
+- [x] LeNet & AlexNet
+- [x] Object Localization
+- [ ] Object Detection
+- [ ] Image Segmentation
+- [ ] Vision Transformers
+- [ ] Generative AI for Vision
+
+## 🤝 Contributions
+
+Suggestions and improvements are always welcome. Feel free to fork the repository and create a pull request.
+
+## ⭐ Connect With Me
+
+- GitHub: https://github.com/devanshu6738
+- LinkedIn: Add your LinkedIn profile
+
 ---
- 
-## 📌 Topics Covered
- 
-- **Image Processing** — reading, writing, resizing, color spaces, filters
-- **Edge Detection** — gradient-based and Canny edge detection
-- **Contours** — shape detection, hierarchy, bounding boxes
-- **Convolution** — custom kernels, blurring, sharpening
-- **Feature Detection** — keypoints, descriptors, matching
-- **Video Processing** — frame-by-frame operations on webcam/video input
-- **Face Detection** — Haar Cascade-based real-time face detection
-- **Object Detection** — YOLOv8 nano model for multi-class detection
----
- 
-## 🧑‍💻 Author
- 
-**Devanshu** — [@devanshu6738](https://github.com/devanshu6738)
- 
----
- 
-## 📄 License
- 
-This project is open source and available under the [MIT License](LICENSE).
+
+### "Teaching machines to see the world, one pixel at a time." 👁️🤖
